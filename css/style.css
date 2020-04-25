@@ -9,6 +9,17 @@ body {
     max-width: 1700px;
 }
 
+a:link, a:visited, a:focus, a:active {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: .4;
+}
+
+a:hover ,
+a:focus{
+    opacity: 1;
+}
+
 hr {
     background-color: #ffffff;
 }
@@ -17,9 +28,29 @@ hr {
     background-color: #ffffff;
     color: #000000;
     padding: .2em;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 footer {
+    background-color: #0051a8;
     text-align: center;
+}
+
+.list-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: .5em 0 0 0;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ver {
+    padding: .8em 0 .3em 0;
+    font-size: .8rem;
+}
+
+.nav-items-border {
+    opacity: .4;
 }
